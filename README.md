@@ -1,6 +1,6 @@
 # spigot-plugin-template-vsc
 
-Spigot MC 1.8.8 plugin template for use with Visual Studio Code using openJDK 18
+Spigot MC 1.8.8 plugin template for use with Visual Studio Code using JDK 1.8
 
 ### 0. Prerequisites
 
@@ -8,9 +8,7 @@ Spigot MC 1.8.8 plugin template for use with Visual Studio Code using openJDK 18
 
 2. The "Extension Pack for Java" / `vscjava.vscode-java-pack` extension for VSC
 
-3. OpenJDK 18 [download](https://jdk.java.net/18/)
-
-Add to system path and check with `$ javac -version` or `$ java -version`
+3. Java 8 JDK [download](https://www.azul.com/downloads/?version=java-8-lts&package=jdk)
 
 4. Apache Maven [download](https://maven.apache.org/download.cgi)
 
