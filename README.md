@@ -2,7 +2,7 @@
 
 Spigot MC 1.8.8 plugin template for use with Visual Studio Code using openJDK 18
 
-### Prerequisites
+### 0. Prerequisites
 
 1. Visual Studio Code ("VSC") [download](https://code.visualstudio.com/download)
 
@@ -15,3 +15,17 @@ Add to system path and check with `$ javac -version` or `$ java -version`
 4. Apache Maven [download](https://maven.apache.org/download.cgi)
 
 Add to system path and check with `$ mvn -v`
+
+### 1. Building the jar
+
+**GUI**
+
+MAVEN Tab -> **right click** Plugin -> `install`
+
+**CLI**
+
+`$ mvn install -f pom.xml`
+
+### 2. Updating the JAR version
+
+Edit field `project/version` in file `pom.xml` to the new version and rebuild.
