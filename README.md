@@ -24,7 +24,9 @@ MAVEN Tab -> **right click** Plugin -> `install`
 
 **CLI**
 
-`$ mvn install -f pom.xml`
+`$ mvn clean install -f pom.xml`
+
+Will be output to `dist/[name].[version].jar`
 
 ### 2. Updating the JAR version
 
